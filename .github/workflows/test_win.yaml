@@ -3,7 +3,7 @@ name: Test-windows
 on:
   push:
     branches:
-      - "master"
+      - 'master'
 jobs:
   test:
     name: Test-windows
