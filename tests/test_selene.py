@@ -9,4 +9,4 @@ def test_github_issue():
     s("#query-builder-test").submit()
     s(by.link_text("eroshenkoam/allure-example")).click()
     s("#issues-tab").click()
-    s(by.partial_text("#76")).should(be.visible)
+    s(by.partial_text("#74")).should(be.visible)
